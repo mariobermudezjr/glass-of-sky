@@ -2,6 +2,7 @@ import React from 'react'
 const skyImage = require('../../../../public/images/sky-image-optimized.jpg')
 
 import Link from '../../Link'
+import Button from '@material-ui/core/Button'
 import styles from './LandingPage.module.css'
 
 const LandingPage = () => (
@@ -23,9 +24,16 @@ const LandingPage = () => (
       <p className={styles.pLanding}>can leave your</p>
       <p className={styles.pLanding}>thoughts and ideas.</p>
       <div className={styles.buttonContainer}>
-        <Link href="/home" className={styles.customButton}>
-          Read more
-        </Link>
+        <Button
+          variant="contained"
+          color="primary"
+          size={'large'}
+          component={Link}
+          naked
+          href="/home"
+        >
+          Read More
+        </Button>
       </div>
     </div>
   </div>

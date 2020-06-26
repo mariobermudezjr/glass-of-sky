@@ -13,24 +13,6 @@
   margin: 24px;
 }
 
-.customButton {
-  color: white;
-  background: #152acb;
-  border-radius: 30px;
-  padding: 10px 30px;
-  font-size: x-large;
-}
-
-.customButton:focus,
-.customButton:active,
-.customButton:hover {
-  outline: none;
-  text-decoration: inherit;
-  color: white;
-  text-decoration: none;
-  opacity: 90%;
-}
-
 .h1Landing {
   color: white;
   font-weight: bold;
@@ -71,14 +53,6 @@
     padding: 24px;
     margin: 48px;
   }
-
-  .customButton {
-    color: white;
-    background: #152acb;
-    border-radius: 30px;
-    padding: 10px 30px;
-    font-size: large;
-  }
 }
 
 @media (max-width: 500px) {
@@ -103,13 +77,5 @@
     justify-content: center;
     padding: 24px;
     margin: 48px;
-  }
-
-  .customButton {
-    color: white;
-    background: #152acb;
-    border-radius: 30px;
-    padding: 10px 30px;
-    font-size: large;
   }
 }

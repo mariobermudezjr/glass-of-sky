@@ -1,13 +1,3 @@
-.backgroundImage {
-  background-image: url('../../../../public/images/sky-image-optimized.jpg');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  display: table;
-  width: 100%;
-  height: 100%;
-}
-
 .content {
   display: inline;
   text-align: center;
@@ -35,9 +25,10 @@
 .customButton:active,
 .customButton:hover {
   outline: none;
+  text-decoration: inherit;
   color: white;
   text-decoration: none;
-  opacity: 70%;
+  opacity: 90%;
 }
 
 .h1Landing {

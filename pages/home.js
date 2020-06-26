@@ -7,15 +7,21 @@ import ProTip from '../src/components/ProTip'
 import Link from '../src/components/Link'
 import Copyright from '../src/components/Copyright'
 
-export default function Pricing() {
+import Drawer from '../src/components/Drawer'
+
+export default function Home() {
   return (
     <Container maxWidth="sm">
-      <Box my={4}>
+      <Box m={12}>
+        <Drawer />
+      </Box>
+
+      <Box m={4}>
         <Typography variant="h4" component="h1" gutterBottom>
-          Next.js example in Pricing Page
+          Article Home Page
         </Typography>
         <Button variant="contained" color="primary" component={Link} naked href="/">
-          Go to the main page
+          Go to the Landing Page
         </Button>
         <ProTip />
         <Copyright />

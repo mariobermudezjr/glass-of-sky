@@ -2,27 +2,12 @@ import React from 'react'
 import Container from '@material-ui/core/Container'
 import Typography from '@material-ui/core/Typography'
 import Box from '@material-ui/core/Box'
-import ProTip from '../src/ProTip'
-import Link from '../src/Link'
-import Copyright from '../src/Copyright'
-import MyLink from '../src/MyLink'
-import MyForm from '../src/MyForm'
+import ProTip from '../src/components/ProTip'
+import Link from '../src/components/Link'
+import Copyright from '../src/components/Copyright'
+import BackgroundImage from '../src/components/BackgroundImage/BackgroundImage'
+import LandingPage from '../src/components/Containers/LandingPage/LandingPage.js'
 
 export default function Index() {
-  return (
-    <Container maxWidth="sm">
-      <Box my={4}>
-        <Typography variant="h4" component="h1" gutterBottom>
-          Next.js example
-        </Typography>
-        <Link href="/about" color="secondary">
-          Go to the about page
-        </Link>
-        <ProTip />
-        <MyLink />
-        <MyForm />
-        <Copyright />
-      </Box>
-    </Container>
-  )
+  return <LandingPage />
 }

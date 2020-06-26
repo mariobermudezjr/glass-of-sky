@@ -4,11 +4,11 @@
   "private": true,
   "dependencies": {
     "@material-ui/core": "latest",
-    "clsx": "latest",
+    "@material-ui/icons": "^4.9.1",
     "formik": "^2.1.4",
     "formik-material-ui": "^2.0.0-beta.1",
     "next": "latest",
-    "prop-types": "latest",
+    "next-images": "^1.4.0",
     "react": "latest",
     "react-dom": "latest"
   },
